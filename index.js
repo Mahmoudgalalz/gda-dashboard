@@ -24,6 +24,7 @@ function dateFormat(date){
 function createData(element){
         const box=document.createElement('div')
         const btn=document.createElement('button')
+        box.className='object'
         btn.textContent='Present'
         const date=document.createElement('p')
         const question=document.createElement('h2')
