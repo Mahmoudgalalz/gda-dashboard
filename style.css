@@ -1,0 +1,6 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(0,0,0);
+    background: linear-gradient(326deg, rgba(0,0,0,1) 0%, rgba(44,45,45,1) 100%);
+    color: aliceblue;
+}
