@@ -8,8 +8,22 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h2 id="question"></h2>
-    <p id="name"></p>
+    <div id="container">
+        <img id="banner" src="/assets/banner.png">
+        <div class="content">
+            <h2 id="question"></h2>
+            <p id="name"></p>
+    </div>
+    <div class="logo">
+        <img src="/assets/logo.png" alt="Logo">
+        <p>Meetup2</p>
+    </div>
+    </div>
+    <div class="ask">
+        <h1>Ask Speaker</h1>
+    </div>
+    
+    
     <script>
         const question=localStorage.getItem('question')
         const name=localStorage.getItem('name')

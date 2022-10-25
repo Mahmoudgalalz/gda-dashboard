@@ -38,6 +38,9 @@ function createData(element){
         box.appendChild(btn)
         box.appendChild(date)
         content.append(box)
+        btn.addEventListener('click',()=>{
+            btn.textContent='Done'
+        })
 }
 
 function saveToLocal(name,question){

@@ -1,6 +1,67 @@
+@import url('http://fonts.cdnfonts.com/css/amarillo');
+@import url('http://fonts.cdnfonts.com/css/bebas-neue');
+
 body{
     font-family: 'Courier New', Courier, monospace;
     background: rgb(0,0,0);
-    background: linear-gradient(326deg, rgba(0,0,0,1) 0%, rgba(44,45,45,1) 100%);
-    color: aliceblue;
+    color: #fff;
+}
+#banner{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    position: relative;
+    z-index: 100;
+}
+.content{
+    position:absolute;
+    top: 25%;
+    left: 12%;
+    width: 68rem;
+    height: 22.5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 200;
+}
+#question{
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    font-size: 34px;
+    font-weight: 900;
+    margin-left: 20rem;
+    margin-top: 7.5rem;
+    padding:0 0 5rem 0;
+    line-break: normal;
+}
+#name{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    position: absolute;
+    left: 45%;
+    top:80%;
+}
+.logo img
+{
+    position: fixed;
+    top: 32rem;
+    left: 8rem;
+    width: 150px;
+    z-index: 200;
+    
+}
+.logo p{
+    font-family: 'Amarillo', sans-serif;
+    font-size: 28px;
+    margin-left: 10rem;
+    margin-top: 6.6rem;
+}
+.ask h1{
+    font-family: 'Amarillo', sans-serif;
+    font-size: 28px;
+    position: fixed;
+    top: 7.5rem;
+    left: 68rem;
+    z-index: 200;
 }
